@@ -6,6 +6,10 @@ This repo stores the [official Oracle Linux base images](https://hub.docker.com/
 
 The Oracle Linux images are intended for use in the **FROM** field of a downstream `Dockerfile`. For example, to use the latest optimized Oracle Linux 7 image, specify `FROM oraclelinux:7-slim`.
 
+## Changelog
+
+Due to the fact that only the latest tarball for each tag is stored in the `dist-amd64` and `dist-arm64v8` branches, it is not possible to use Git's history to determine what has changed and when. Thus, we maintain a [CHANGELOG](https://github.com/oracle/container-images/blob/master/CHANGELOG.md) in the `master` branch that documents the changes made to various images by date.
+
 ## What is the difference between `oraclelinux:7` and `oraclelinux:7-slim`?
 
 Oracle recommends using `oraclelinux:7-slim` as your base layer as it contains just enough packages for `yum` to work to install more packages. Therefore, it has the smallest size and the least amount of unneeded content.
