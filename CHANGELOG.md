@@ -1,5 +1,11 @@
 # Changelog
 
+## 2020-01-28
+* Updated Oracle Linux `7` and `7-slim` images for `amd64`
+  * https://linux.oracle.com/cve/CVE-2019-13734.html
+  * https://linux.oracle.com/errata/ELSA-2020-0227.html
+* https://github.com/docker-library/official-images/pull/7356
+
 ## 2020-01-20
 * Adding Oracle Linux `8.1` images for both `amd64` and `arm64v8`
 * Updating `8-slim` image
